@@ -1,0 +1,11 @@
+name: FFAStats
+version: '1.0.0'
+main: com.vertexffa.ffastats.FFAStats
+api-version: '1.21'
+author: VertexFFA
+softdepend: [PlaceholderAPI]
+commands:
+  ffastats:
+    description: View your or another player's FFA stats
+    usage: /<command> [player]
+    aliases: [fstats, fs]
